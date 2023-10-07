@@ -3,11 +3,11 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-public class Telalogin extends JFrame {
+public class TelaLogin extends JFrame {
     private JTextField textFieldEmail;
     private JPasswordField passwordFieldSenha;
 
-    public Telalogin() {
+    public TelaLogin() {
         initComponents();
     }
 
@@ -95,8 +95,8 @@ public class Telalogin extends JFrame {
     public static void main(String[] args) {
         SwingUtilities.invokeLater(new Runnable() {
             public void run() {
-                Telalogin telaLogin = new Telalogin();
-                telaLogin.setVisible(true);
+                TelaLogin TelaLogin = new TelaLogin();
+                TelaLogin.setVisible(true);
             }
 });
 }
